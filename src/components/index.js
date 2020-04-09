@@ -229,9 +229,9 @@ export default class ReactFloater extends React.Component {
     const { positionWrapper } = this.state;
     const { disableFlip, getPopper, hideArrow, offset, placement, wrapperOptions } = this.props;
     const flipBehavior =
-      placement === 'top' || placement === 'bottom'
+      placement === 'top' || placement === 'bottom' || placement === 'bottom-end'
         ? 'flip'
-        : ['right', 'bottom-end', 'top-end', 'left', 'top-start', 'bottom-start'];
+        : ['right', 'top-end', 'left', 'top-start', 'bottom-start'];
 
     /* istanbul ignore else */
     if (placement === 'center') {

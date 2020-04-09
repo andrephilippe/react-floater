@@ -1,16 +1,16 @@
 {
-  "name": "react-floater",
+  "name": "react-floater-bubbling-fix",
   "version": "0.7.2",
-  "description": "Floaters everywhere!",
+  "description": "Fixed bubbling event.",
   "author": "Gil Barbara <gilbarbara@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gilbarbara/react-floater.git"
+    "url": "git+https://github.com/andrephilippe/react-floater.git"
   },
   "bugs": {
-    "url": "https://github.com/gilbarbara/react-floater/issues"
+    "url": "https://github.com/andrephilippe/react-floater/issues"
   },
-  "homepage": "https://github.com/gilbarbara/react-floater#readme",
+  "homepage": "https://github.com/andrephilippe/react-floater#readme",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
